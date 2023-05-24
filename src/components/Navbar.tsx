@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import Image from "next/image";
-import { RxHamburgerMenu } from "react-icons/Rx";
+import { GiHamburgerMenu } from "react-icons/Gi";
 import { AiOutlineClose } from "react-icons/Ai";
 
 import Link from "next/link";
@@ -28,7 +28,7 @@ export default function Navbar() {
             onClick={() => setOpen(!open)}
             className="lg:hidden z-50 text-2xl"
           >
-            {open ? <AiOutlineClose /> : <RxHamburgerMenu />}
+            {open ? <AiOutlineClose /> : <GiHamburgerMenu />}
           </div>
 
           {/* mobile Links starts */}
