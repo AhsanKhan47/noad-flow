@@ -2,7 +2,7 @@ import React from "react";
 import Wrapper from "../shared/wrapper";
 import Cardd from "./Card";
 
-export default function ExploreOptions() {
+export default function Explore() {
   return (
     <Wrapper>
       <div className=" w-[90%] mx-auto my-12">

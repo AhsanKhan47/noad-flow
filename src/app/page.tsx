@@ -1,5 +1,5 @@
 "use client";
-import ExploreOptions from "@/components/explore/exploreOptions";
+import Explore from "@/components/explore/ExploreOptions";
 import Wrapper from "@/components/shared/wrapper";
 import CardBody from "@/components/explore/CardBody";
 
@@ -8,7 +8,7 @@ export default function Home() {
     <main>
       <Wrapper>
         <CardBody />
-        <ExploreOptions />
+        <Explore />
       </Wrapper>
     </main>
   );
