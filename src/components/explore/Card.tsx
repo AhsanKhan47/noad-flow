@@ -51,8 +51,8 @@ export default function Card({ search }: any) {
               .includes(search)
           )
           .map((card, index) => (
-            <SwiperSlide>
-              <div key={index} className="bg-secondary rounded-lg ">
+            <SwiperSlide key={index}>
+              <div className="bg-secondary rounded-lg ">
                 <Link href="#">
                   <div className="w-full">
                     <Image
