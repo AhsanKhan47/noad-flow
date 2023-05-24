@@ -1,5 +1,5 @@
 import React from "react";
-import Wrapper from "../shared/wrapper";
+import Wrapper from "./shared/wrapper";
 
 export default function ExploreOption() {
   return (
