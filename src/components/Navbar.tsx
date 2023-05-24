@@ -1,8 +1,7 @@
 "use client";
 import React from "react";
 import Image from "next/image";
-import { GiHamburgerMenu } from "react-icons/Gi";
-import { AiOutlineClose } from "react-icons/Ai";
+
 import { Menu, MenuClose } from "./shared/icons";
 import Link from "next/link";
 import { useState } from "react";
