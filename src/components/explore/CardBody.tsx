@@ -8,7 +8,7 @@ import "swiper/css/pagination";
 import "../../app/globals.css";
 
 import { Filter, Search } from "../shared/icons";
-import Card from "./Card";
+import Card from "./card";
 export default function CardBody() {
   const [search, setSearch] = useState("");
   return (

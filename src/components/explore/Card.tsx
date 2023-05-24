@@ -1,6 +1,6 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import React from "react";
-import { CardIcons } from "./CardIcons";
+import { CardIcons } from "./cardIcons";
 import { cardsData } from "@/data/data";
 import Image from "next/image";
 import Link from "next/link";

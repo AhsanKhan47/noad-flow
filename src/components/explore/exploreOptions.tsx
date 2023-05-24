@@ -1,12 +1,10 @@
 import React from "react";
 import Wrapper from "../shared/wrapper";
-import Cardd from "./Card";
 
-export default function ExploreBody() {
+export default function ExploreOption() {
   return (
     <Wrapper>
       <div className=" w-[90%] mx-auto my-12">
-        <Cardd />
         <h1 className="font-normal text-2xl mb-3"> Explore options</h1>
 
         <div className=" sm:flex sm:flex-col md:flex-row gap-3  justify-start w-[80%]   flex-grow: 1; bg-secondary   mr-auto p-6 rounded-2xl">
