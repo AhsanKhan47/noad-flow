@@ -1,13 +1,14 @@
-import Navbar from "@/components/Navbar";
-import Header from "@/components/explore/header";
+"use client";
+import ExploreOptions from "@/components/explore/exploreOptions";
 import Wrapper from "@/components/shared/wrapper";
-import Image from "next/image";
+import CardBody from "@/components/explore/CardBody";
 
 export default function Home() {
   return (
     <main>
       <Wrapper>
-        <Header />
+        <CardBody />
+        <ExploreOptions />
       </Wrapper>
     </main>
   );

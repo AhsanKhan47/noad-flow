@@ -15,7 +15,7 @@ export default function Navbar() {
     <nav className="bg-primary text-white">
       <Wrapper>
         <div className="w-[90%] mx-auto flex flex-row  items-center justify-between">
-          <div className="h-fit z-30 w-[50px] py-2 md:w-[40px] lg:w-[90px] ">
+          <div className="h-fit z-30 w-[30px] py-2 md:w-[40px] lg:w-[90px] ">
             <Image
               src={navbarData.logo}
               alt="noads logo"
@@ -38,11 +38,15 @@ export default function Navbar() {
             }  bg-primary h-screen w-full   transition-transform duration-300 ease-in-out filter`}
           >
             <ul className="flex flex-col items-center justify-around h-1/2 mt-12 ">
-              {navbarData.links.map((link) => (
-                <Link href={link.href}>{link.label}</Link>
+              {navbarData.links.map((link, key) => (
+                <Link href={link.href} key={key}>
+                  {link.label}
+                </Link>
               ))}
-              {navbarData.links2.map((link) => (
-                <Link href={link.href}>{link.label}</Link>
+              {navbarData.links2.map((link, key) => (
+                <Link href={link.href} key={key}>
+                  {link.label}
+                </Link>
               ))}
             </ul>
             <ul> </ul>
@@ -52,15 +56,15 @@ export default function Navbar() {
           <div className="flex flex-row items-center justify-between w-full text-base sm:hidden md:hidden lg:flex">
             {" "}
             <ul>
-              {navbarData.links.map((link) => (
-                <Link className=" ml-12" href={link.href}>
+              {navbarData.links.map((link, key) => (
+                <Link className=" ml-12" href={link.href} key={key}>
                   {link.label}
                 </Link>
               ))}
             </ul>
             <ul>
-              {navbarData.links2.map((link) => (
-                <Link className=" ml-12" href={link.href}>
+              {navbarData.links2.map((link, key) => (
+                <Link className=" ml-12" href={link.href} key={key}>
                   {link.label}
                 </Link>
               ))}

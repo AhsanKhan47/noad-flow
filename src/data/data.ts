@@ -12,12 +12,15 @@ export const navbarData = {
 };
 
 
-export const exploreCards2 = [
+export const cardsData = {
+
+
+topPicksData:[
   
   {
     img:"/interior.png",
     location:"Denver, Colorado",
-    name:"arem alidj",
+    name:"america",
     description:"Nestled in a quiet and picturesque neighborhood, this cozy apartment offers.",
     noOfBed:2,
     noOfTable:2,
@@ -26,7 +29,7 @@ export const exploreCards2 = [
   },{
     img:"/interior.png",
     location:"Denver, Colorado",
-    name:"borem boem",
+    name:"north america",
     description:"Nestled in a quiet and picturesque neighborhood, this cozy apartment offers.",
     noOfBed:2,
     noOfTable:2,
@@ -35,15 +38,52 @@ export const exploreCards2 = [
   },{
     img:"/interior.png",
     location:"Denver, Colorado",
-    name:"corem borem",
+    name:"beriks ",
     description:"Nestled in a quiet and picturesque neighborhood, this cozy apartment offers.",
     noOfBed:2,
     noOfTable:2,
     noOfShower:1,
 
+  },{
+    img:"/interior.png",
+    location:"Colorado",
+    name:"core fdsk",
+    description:"Nestled in a quiet and picturesque neighborhood, this cozy apartment offers.",
+    noOfBed:4,
+    noOfTable:2,
+    noOfShower:2,
+
+  },{
+    img:"/interior.png",
+    location:"Elege, Colorado",
+    name:"core fdsk",
+    description:"Nestled in a quiet and picturesque neighborhood, this cozy apartment offers.",
+    noOfBed:4,
+    noOfTable:2,
+    noOfShower:2,
+
+  },{
+    img:"/interior.png",
+    location:"Denver, Colorado",
+    name:"core fdsk",
+    description:"Nestled in a quiet and picturesque neighborhood, this cozy apartment offers.",
+    noOfBed:4,
+    noOfTable:2,
+    noOfShower:2,
+
+  },{
+    img:"/interior.png",
+    location:"Fenver",
+    name:"core fdsk",
+    description:"Nestled in a quiet and picturesque neighborhood, this cozy apartment offers.",
+    noOfBed:4,
+    noOfTable:2,
+    noOfShower:2,
+
   },
 ]
 
+}
 
 
 
@@ -55,26 +95,3 @@ export const exploreCards2 = [
 
 
 
-
-
-
-export const exploreCards = [
-  
-  {
-    name:"a",
-    id:"1"
-  
-    },  {
-      name:"b",
-      id:"2"
-    
-      },  {
-        name:"c",
-        id:"3"
-      
-        },  {
-          name:"d",
-          id:"4"
-        
-          },
-]
