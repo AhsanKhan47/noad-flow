@@ -1,6 +1,6 @@
 "use client";
 
-import ExploreOption from "@/components/explore";
+import ExploreOption from "@/components/explore/explore";
 import CardBody from "@/components/explore/cardBody";
 import Wrapper from "@/components/shared/wrapper";
 
