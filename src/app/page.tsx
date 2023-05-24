@@ -1,7 +1,7 @@
 "use client";
-import Explore from "@/components/explore/ExploreOptions";
 import Wrapper from "@/components/shared/wrapper";
 import CardBody from "@/components/explore/CardBody";
+import Explore from "@/components/explore/ExploreOptions";
 
 export default function Home() {
   return (
