@@ -7,7 +7,7 @@ import Link from "next/link";
 import { useState } from "react";
 import { navbarData } from "@/data/data";
 import Wrapper from "./shared/wrapper";
-
+import { Logo } from "./shared/icons";
 export default function Navbar() {
   const [open, setOpen] = useState(false);
   return (
@@ -15,12 +15,7 @@ export default function Navbar() {
       <Wrapper>
         <div className="w-[90%] mx-auto flex flex-row  items-center justify-between">
           <div className="h-fit z-30 w-[30px] py-2 md:w-[40px] lg:w-[90px] ">
-            <Image
-              src={navbarData.logo}
-              alt="noads logo"
-              height={100}
-              width={100}
-            />
+            <Logo />
           </div>
           {/* Hamburger */}
           <div

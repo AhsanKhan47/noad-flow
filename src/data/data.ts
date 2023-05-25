@@ -1,5 +1,5 @@
 export const navbarData = {
-  logo: "/logo.svg",
+
   links: [
     { label: "Explore", href: "#" },
     { label: "My Trips", href: "#" },
