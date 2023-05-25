@@ -28,7 +28,7 @@ topPicksData:[
    
   },{
     img:"/interior.png",
-    location:"Denver, Colorado",
+    location:"Elevan",
     name:"north america",
     description:"Nestled in a quiet and picturesque neighborhood, this cozy apartment offers.",
     noOfBed:2,
@@ -37,7 +37,7 @@ topPicksData:[
   
   },{
     img:"/interior.png",
-    location:"Denver, Colorado",
+    location:"Denver",
     name:"beriks ",
     description:"Nestled in a quiet and picturesque neighborhood, this cozy apartment offers.",
     noOfBed:2,
@@ -56,7 +56,7 @@ topPicksData:[
   },{
     img:"/interior.png",
     location:"Elege, Colorado",
-    name:"core fdsk",
+    name:"louse",
     description:"Nestled in a quiet and picturesque neighborhood, this cozy apartment offers.",
     noOfBed:4,
     noOfTable:2,
@@ -65,7 +65,7 @@ topPicksData:[
   },{
     img:"/interior.png",
     location:"Denver, Colorado",
-    name:"core fdsk",
+    name:"ballencia",
     description:"Nestled in a quiet and picturesque neighborhood, this cozy apartment offers.",
     noOfBed:4,
     noOfTable:2,
@@ -73,8 +73,8 @@ topPicksData:[
 
   },{
     img:"/interior.png",
-    location:"Fenver",
-    name:"core fdsk",
+    location:"Denver, Colorado",
+    name:"core",
     description:"Nestled in a quiet and picturesque neighborhood, this cozy apartment offers.",
     noOfBed:4,
     noOfTable:2,
